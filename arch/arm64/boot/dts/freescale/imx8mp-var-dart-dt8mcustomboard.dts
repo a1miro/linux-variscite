@@ -591,9 +591,11 @@
 &ecspi1 {
 	pinctrl-names = "default";
 	pinctrl-0 = <&pinctrl_ecspi1>;
+	/* 
 	cs-gpios = <&gpio5  9 GPIO_ACTIVE_LOW>,
 		   <&gpio1 12 GPIO_ACTIVE_LOW>,
 		   <&gpio2 10 GPIO_ACTIVE_LOW>;
+	*/
 	status = "okay";
 
 	/* Resistive touch controller */
